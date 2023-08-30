@@ -8,6 +8,7 @@ menudiv = document.getElementById("menu")
 
 document.getElementById("closedisplay").onclick=function(){
     document.getElementById("display").classList.remove("active");
+    document.getElementById("display").style.display="none";
 }
 
 window.onload=function(){
