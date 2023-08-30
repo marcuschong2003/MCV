@@ -8,7 +8,7 @@ menudiv = document.getElementById("menu")
 
 document.getElementById("closedisplay").onclick=function(){
     document.getElementById("display").classList.remove("active");
-    document.getElementById("display").style.display="none";
+    // document.getElementById("display").style.display="none";
 }
 
 window.onload=function(){
@@ -36,6 +36,7 @@ menuicon.onclick=function(){
     }else{
         contacts.style.display="block";
         menuicon.setAttribute("src","./Assets/close.svg");
+        document.getElementById("display").classList.remove("active");
     }
 }
 
@@ -60,7 +61,7 @@ window.onresize = function(){
         document.getElementById("display").style.left = document.getElementById("contentcontainer").offsetWidth + 20; 
         contacts.style.display="block";
     }else{
-        document.getElementById("display").style.display= "none";
+        // document.getElementById("display").style.display= "none";
         contacts.style.display="none";
     }
 }
