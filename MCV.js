@@ -1,6 +1,6 @@
-srcs = ["./Assets/submitted/1.png","./Assets/submitted/2.jpg","./Assets/submitted/3.jpg","./Assets/submitted/4.jpg","./Assets/submitted/5.jpg","./Assets/submitted/6.jpg","./Assets/submitted/7.jpg","./Assets/submitted/8.jpg","./Assets/submitted/9.jpg","./Assets/submitted/10.jpg","./Assets/submitted/11.jpg"]
-titles = ["DID HE WIN OR LOSE?","Hope","Peace in the Sky","Moonshot","Golden Hour","Neighbour's Little Flower","Food for Mental Health","Crepuscule","The Blue Sky Walk","The Peaceful Beach","Dusk's Rose"]
-authors = ["SCOOB DAUG","Yoong Hui Hui","Lily C","Anonymous","Low Wei Lun","YüJun :) ","Low Wei Lun","Sisyphus7","Low Wei Lun","Anonymous","YY"]
+srcs = ["./Assets/submitted/1.png","./Assets/submitted/2.jpg","./Assets/submitted/3.jpg","./Assets/submitted/4.jpg","./Assets/submitted/5.jpg","./Assets/submitted/6.jpg","./Assets/submitted/7.jpg","./Assets/submitted/8.jpg","./Assets/submitted/9.jpg","./Assets/submitted/10.jpg","./Assets/submitted/11.jpg","./Assets/submitted/12.jpg","./Assets/submitted/13.jpg","./Assets/submitted/14.jpg","./Assets/submitted/15.jpg","./Assets/submitted/16.png"]
+titles = ["DID HE WIN OR LOSE?","Hope","Peace in the Sky","Moonshot","Golden Hour","Neighbour's Little Flower","Food for Mental Health","Crepuscule","The Blue Sky Walk","The Peaceful Beach","Dusk's Rose","A Rose Swaying In A Sea of Flames","Life goes on","Love yourself","Tide","从万丈深渊 自己治愈自己 (Saving myself from the abyss)"]
+authors = ["SCOOB DAUG","Yoong Hui Hui","Lily C","Anonymous","Low Wei Lun","YüJun :)","Low Wei Lun","Sisyphus7","Low Wei Lun","Anonymous","YY","YüJun :)","Isuann L.","Spring breeze","Anonymous","Liu Wei Zi"]
 
 menuicon = document.getElementById("menu-icon")
 menudiv = document.getElementById("menu")
@@ -63,10 +63,3 @@ window.onresize = function(){
         contacts.style.display="none";
     }
 }
-
-// document.getElementById("instagram").onmouseover = function(){
-//     document.getElementById("instagram-tag").style.display="inline";
-// }
-// document.getElementById("instagram").onmous = function(){
-//     document.getElementById("instagram-tag").style.display="inline";
-// }
