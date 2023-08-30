@@ -165,7 +165,7 @@ a:hover{
     }
     #contentcontainer{
         position: absolute;
-        top: 10dvh;
+        top: calc(var(--vh, 1vh) * 10);
         width: 50vw;
         max-width: 500px;
         height: 75dvh;
@@ -175,7 +175,7 @@ a:hover{
     }
     #display{
         position: absolute;
-        top: 10dvh;
+        top: calc(var(--vh, 1vh) * 10);
         height: 73dvh;
         border: 3px solid var(--Red);
         left: calc(min(500px,50vw) + 5vw);
