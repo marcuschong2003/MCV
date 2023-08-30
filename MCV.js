@@ -5,6 +5,10 @@ authors = ["SCOOB DAUG","Yoong Hui Hui","Lily C","Anonymous","Low Wei Lun","YüJ
 menuicon = document.getElementById("menu-icon")
 menudiv = document.getElementById("menu")
 
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 document.getElementById("closedisplay").onclick=function(){
     document.getElementById("display").classList.remove("active");
@@ -56,6 +60,8 @@ for(var x=0;x<contents.length;x++){
 }
 
 window.onresize = function(){
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`); 
     if(window.innerWidth>800){
         document.getElementById("display").style.display= "block";
         document.getElementById("display").style.left = document.getElementById("contentcontainer").offsetWidth + 20; 
